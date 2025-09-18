@@ -30,29 +30,32 @@
         }
 
         // Function to get a unique cycle ID based on the date and time period
-        function getCycleId() {
+            function getCycleId() {
             const now = new Date();
             const cycleHour = now.getHours();
             const date = now.toISOString().slice(0, 10);
-            if (cycleHour >= 0 && cycleHour < 12) {
-                return `${date}-am`;
+            if (cycleHour >= 6 && cycleHour < 18) {
+                return `${date}-day`;
             } else {
-                return `${date}-pm`;
+                return `${date}-night`;
             }
         }
 
-        // Function to get the next reset time (either 12:00 or 00:00)
+        // Function to get the next reset time (either 06:00 or 18:00)
         function getNextResetTime() {
             const now = new Date();
             const nextReset = new Date(now);
             
-            if (now.getHours() < 12) {
-                // If it's before 12:00, next reset is at 12:00 today
-                nextReset.setHours(12, 0, 0, 0);
+            if (now.getHours() < 6) {
+                // If it's before 06:00, next reset is at 06:00 today
+                nextReset.setHours(6, 0, 0, 0);
+            } else if (now.getHours() < 18) {
+                // If it's between 06:00-17:59, next reset is at 18:00 today
+                nextReset.setHours(18, 0, 0, 0);
             } else {
-                // If it's after 12:00, next reset is at 00:00 tomorrow
+                // If it's after 18:00, next reset is at 06:00 tomorrow
                 nextReset.setDate(nextReset.getDate() + 1);
-                nextReset.setHours(0, 0, 0, 0);
+                nextReset.setHours(6, 0, 0, 0);
             }
             
             return nextReset;
