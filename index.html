@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เรียนคำศัพท์ภาษาอังกฤษ 24 ชม.</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body onload="checkProgressOnLoad()">
+    <div class="top-section-bg">
+        <div class="progress-container hidden" id="progressContainer">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-text" id="progressText">0/10</div>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="timer-container">
+                <div class="timer">
+                    <div style="flex-grow: 1; text-align: center;">
+                        <div class="timer-text" id="timer">กำลังโหลด...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header">
+                <h1>🎯 เรียนคำศัพท์ภาษาอังกฤษ</h1>
+                <p class="subtitle">Oxford 3000 Words - เรียนรู้ 10 คำใหม่ ในทุก 12 ชั่วโมง</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div id="startSection" style="text-align:center; padding: 50px;">
+            <p style="font-size: 1.2em; margin-bottom: 20px; color: #4a5568; font-weight: 500;">กดปุ่มด้านล่างเพื่อเริ่มเรียนคำศัพท์ใหม่วันนี้!</p>
+            <button class="btn" id="startButton" onclick="startApp()">
+                🚀 เริ่มเรียนคำศัพท์
+            </button>
+        </div>
+
+        <div id="continueSection" class="continue-message">
+            <h2>ยินดีต้อนรับกลับ! 👋</h2>
+            <p id="continueMessage"></p>
+            <button class="btn" onclick="continueApp()" style="margin-top: 20px;">
+                ➡️ ดำเนินการต่อ
+            </button>
+        </div>
+
+        <div id="appContent" style="width:100%; display:none;">
+            <div class="main-content">
+                <div class="word-card" id="wordCard">
+                    <div class="word-forms">
+                        <div class="form-present">
+                            <span class="form-label">Present</span> 
+                            <span id="wordEnglishPresent" class="word-english">-</span>
+                        </div>
+                        <div class="form-past">
+                            <span class="form-label">Past</span> 
+                            <span id="wordEnglishPast">-</span>
+                        </div>
+                        <div class="form-past-participle">
+                            <span class="form-label">Past Participle</span> 
+                            <span id="wordEnglishPastParticiple">-</span>
+                        </div>
+                    </div>
+                    <p style="font-size: 1.1em; color: #4a5568; margin-top: 20px; font-weight: 500;">💭 กรอกคำแปลภาษาไทยด้านล่าง</p>
+                    
+                    <div class="answer-section" style="margin-top: 25px;">
+                        <input type="text" id="inputThai" class="input-field" placeholder="พิมพ์คำแปลภาษาไทยที่นี่...">
+                        <button class="btn" id="checkAnswerBtn" onclick="checkAnswer()">✔️ ตรวจสอบคำตอบ</button>
+                    </div>
+
+                    <div id="answerContent" class="answer-content" style="display: none;">
+                        <h4>✅ คำตอบที่ถูกต้องคือ:</h4>
+                        <p id="correctThai" style="margin-bottom: 10px; font-weight: 600; font-size: 1.1em; color: #2d3748;"></p>
+                        <p style="font-size: 1em; font-style: italic; color: #4a5568;">สามารถกดปุ่ม "คำถัดไป" ได้เลย</p>
+                        <button class="btn btn-next" id="nextWordBtn" onclick="nextWord()">➡️ คำถัดไป</button>
+                    </div>
+                </div>
+    
+                <div class="completed-message" id="completedMessage">
+                    <h2>🎉 ยินดีด้วย!</h2>
+                    <p id="scoreMessage" style="font-size: 1.2em; margin-bottom: 15px; font-weight: 600; color: #2d3748;"></p>
+                    <p style="color: #4a5568; font-size: 1em;">กลับมาเรียนใหม่ ในตอนหลังเที่ยงวัน หรือ หลังเที่ยงคืน</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- <button class="reset-button" onclick="resetProgress()" title="รีเซ็ตความคืบหน้า">🔄</button>-->
+
+   
+<footer><span>ถ้าไม่สามารถใช้งานได้กรุณารอสักครู่เพราะใช้ CDN ในการ Alert<br>ถูกพัฒนาขึ้นโดย Holy1Danger และได้รับการช่วยเหลือและคำแนะนำจาก claude.ai </span></footer>
+</body>
+</html>

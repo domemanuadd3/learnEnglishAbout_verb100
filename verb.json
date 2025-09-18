@@ -1,0 +1,602 @@
+[
+  {
+    "present": "be (is, am, are)",
+    "past": "was, were",
+    "past_participle": "been",
+    "thai_meaning": "เป็น, อยู่, คือ"
+  },
+  {
+    "present": "bear",
+    "past": "bore",
+    "past_participle": "born",
+    "thai_meaning": "ทน, ให้กำเนิด"
+  },
+  {
+    "present": "beat",
+    "past": "beat",
+    "past_participle": "beaten",
+    "thai_meaning": "ตี, เอาชนะ"
+  },
+  {
+    "present": "become",
+    "past": "became",
+    "past_participle": "become",
+    "thai_meaning": "กลายเป็น"
+  },
+  {
+    "present": "begin",
+    "past": "began",
+    "past_participle": "begun",
+    "thai_meaning": "เริ่ม"
+  },
+  {
+    "present": "bend",
+    "past": "bent",
+    "past_participle": "bent",
+    "thai_meaning": "งอ, โค้ง"
+  },
+  {
+    "present": "bet",
+    "past": "bet",
+    "past_participle": "bet",
+    "thai_meaning": "พนัน"
+  },
+  {
+    "present": "bind",
+    "past": "bound",
+    "past_participle": "bound",
+    "thai_meaning": "ผูก, มัด"
+  },
+  {
+    "present": "bite",
+    "past": "bit",
+    "past_participle": "bitten",
+    "thai_meaning": "กัด"
+  },
+  {
+    "present": "bleed",
+    "past": "bled",
+    "past_participle": "bled",
+    "thai_meaning": "เลือดออก"
+  },
+  {
+    "present": "blow",
+    "past": "blew",
+    "past_participle": "blown",
+    "thai_meaning": "เป่า"
+  },
+  {
+    "present": "break",
+    "past": "broke",
+    "past_participle": "broken",
+    "thai_meaning": "ทำแตก, ทำหัก"
+  },
+  {
+    "present": "bring",
+    "past": "brought",
+    "past_participle": "brought",
+    "thai_meaning": "นำมา"
+  },
+  {
+    "present": "build",
+    "past": "built",
+    "past_participle": "built",
+    "thai_meaning": "สร้าง"
+  },
+  {
+    "present": "burn",
+    "past": "burned, burnt",
+    "past_participle": "burned, burnt",
+    "thai_meaning": "เผา, ไหม้"
+  },
+  {
+    "present": "burst",
+    "past": "burst",
+    "past_participle": "burst",
+    "thai_meaning": "ระเบิด, แตกออก"
+  },
+  {
+    "present": "buy",
+    "past": "bought",
+    "past_participle": "bought",
+    "thai_meaning": "ซื้อ"
+  },
+  {
+    "present": "catch",
+    "past": "caught",
+    "past_participle": "caught",
+    "thai_meaning": "จับ"
+  },
+  {
+    "present": "choose",
+    "past": "chose",
+    "past_participle": "chosen",
+    "thai_meaning": "เลือก"
+  },
+  {
+    "present": "come",
+    "past": "came",
+    "past_participle": "come",
+    "thai_meaning": "มา"
+  },
+  {
+    "present": "cost",
+    "past": "cost",
+    "past_participle": "cost",
+    "thai_meaning": "มีราคา"
+  },
+  {
+    "present": "cut",
+    "past": "cut",
+    "past_participle": "cut",
+    "thai_meaning": "ตัด"
+  },
+  {
+    "present": "deal",
+    "past": "dealt",
+    "past_participle": "dealt",
+    "thai_meaning": "จัดการ"
+  },
+  {
+    "present": "dig",
+    "past": "dug",
+    "past_participle": "dug",
+    "thai_meaning": "ขุด"
+  },
+  {
+    "present": "do",
+    "past": "did",
+    "past_participle": "done",
+    "thai_meaning": "ทำ"
+  },
+  {
+    "present": "draw",
+    "past": "drew",
+    "past_participle": "drawn",
+    "thai_meaning": "วาด"
+  },
+  {
+    "present": "dream",
+    "past": "dreamed, dreamt",
+    "past_participle": "dreamed, dreamt",
+    "thai_meaning": "ฝัน"
+  },
+  {
+    "present": "drink",
+    "past": "drank",
+    "past_participle": "drunk",
+    "thai_meaning": "ดื่ม"
+  },
+  {
+    "present": "drive",
+    "past": "drove",
+    "past_participle": "driven",
+    "thai_meaning": "ขับรถ"
+  },
+  {
+    "present": "eat",
+    "past": "ate",
+    "past_participle": "eaten",
+    "thai_meaning": "กิน"
+  },
+  {
+    "present": "fall",
+    "past": "fell",
+    "past_participle": "fallen",
+    "thai_meaning": "ตก, หล่น"
+  },
+  {
+    "present": "feed",
+    "past": "fed",
+    "past_participle": "fed",
+    "thai_meaning": "ให้อาหาร"
+  },
+  {
+    "present": "feel",
+    "past": "felt",
+    "past_participle": "felt",
+    "thai_meaning": "รู้สึก"
+  },
+  {
+    "present": "fight",
+    "past": "fought",
+    "past_participle": "fought",
+    "thai_meaning": "ต่อสู้"
+  },
+  {
+    "present": "find",
+    "past": "found",
+    "past_participle": "found",
+    "thai_meaning": "พบ"
+  },
+  {
+    "present": "fly",
+    "past": "flew",
+    "past_participle": "flown",
+    "thai_meaning": "บิน"
+  },
+  {
+    "present": "forbid",
+    "past": "forbade",
+    "past_participle": "forbidden",
+    "thai_meaning": "ห้าม"
+  },
+  {
+    "present": "forget",
+    "past": "forgot",
+    "past_participle": "forgotten",
+    "thai_meaning": "ลืม"
+  },
+  {
+    "present": "forgive",
+    "past": "forgave",
+    "past_participle": "forgiven",
+    "thai_meaning": "ให้อภัย"
+  },
+  {
+    "present": "freeze",
+    "past": "froze",
+    "past_participle": "frozen",
+    "thai_meaning": "แข็งตัว"
+  },
+  {
+    "present": "get",
+    "past": "got",
+    "past_participle": "gotten, got",
+    "thai_meaning": "ได้รับ"
+  },
+  {
+    "present": "give",
+    "past": "gave",
+    "past_participle": "given",
+    "thai_meaning": "ให้"
+  },
+  {
+    "present": "go",
+    "past": "went",
+    "past_participle": "gone",
+    "thai_meaning": "ไป"
+  },
+  {
+    "present": "grow",
+    "past": "grew",
+    "past_participle": "grown",
+    "thai_meaning": "เติบโต"
+  },
+  {
+    "present": "hang",
+    "past": "hung",
+    "past_participle": "hung",
+    "thai_meaning": "แขวน"
+  },
+  {
+    "present": "have",
+    "past": "had",
+    "past_participle": "had",
+    "thai_meaning": "มี"
+  },
+  {
+    "present": "hear",
+    "past": "heard",
+    "past_participle": "heard",
+    "thai_meaning": "ได้ยิน"
+  },
+  {
+    "present": "hide",
+    "past": "hid",
+    "past_participle": "hidden",
+    "thai_meaning": "ซ่อน"
+  },
+  {
+    "present": "hit",
+    "past": "hit",
+    "past_participle": "hit",
+    "thai_meaning": "ตี, ชน"
+  },
+  {
+    "present": "hold",
+    "past": "held",
+    "past_participle": "held",
+    "thai_meaning": "ถือ"
+  },
+  {
+    "present": "hurt",
+    "past": "hurt",
+    "past_participle": "hurt",
+    "thai_meaning": "เจ็บ, ทำให้เจ็บ"
+  },
+  {
+    "present": "keep",
+    "past": "kept",
+    "past_participle": "kept",
+    "thai_meaning": "เก็บ"
+  },
+  {
+    "present": "know",
+    "past": "knew",
+    "past_participle": "known",
+    "thai_meaning": "รู้, รู้จัก"
+  },
+  {
+    "present": "lay",
+    "past": "laid",
+    "past_participle": "laid",
+    "thai_meaning": "วางลง"
+  },
+  {
+    "present": "lead",
+    "past": "led",
+    "past_participle": "led",
+    "thai_meaning": "นำ"
+  },
+  {
+    "present": "leave",
+    "past": "left",
+    "past_participle": "left",
+    "thai_meaning": "จากไป, ทิ้ง"
+  },
+  {
+    "present": "lend",
+    "past": "lent",
+    "past_participle": "lent",
+    "thai_meaning": "ให้ยืม"
+  },
+  {
+    "present": "let",
+    "past": "let",
+    "past_participle": "let",
+    "thai_meaning": "อนุญาต"
+  },
+  {
+    "present": "lie",
+    "past": "lay",
+    "past_participle": "lain",
+    "thai_meaning": "นอน"
+  },
+  {
+    "present": "lose",
+    "past": "lost",
+    "past_participle": "lost",
+    "thai_meaning": "ทำหาย, แพ้"
+  },
+  {
+    "present": "make",
+    "past": "made",
+    "past_participle": "made",
+    "thai_meaning": "ทำ, สร้าง"
+  },
+  {
+    "present": "mean",
+    "past": "meant",
+    "past_participle": "meant",
+    "thai_meaning": "หมายถึง"
+  },
+  {
+    "present": "meet",
+    "past": "met",
+    "past_participle": "met",
+    "thai_meaning": "พบ"
+  },
+  {
+    "present": "pay",
+    "past": "paid",
+    "past_participle": "paid",
+    "thai_meaning": "จ่าย"
+  },
+  {
+    "present": "put",
+    "past": "put",
+    "past_participle": "put",
+    "thai_meaning": "วาง"
+  },
+  {
+    "present": "quit",
+    "past": "quit",
+    "past_participle": "quit",
+    "thai_meaning": "เลิก, ออกจาก"
+  },
+  {
+    "present": "read",
+    "past": "read",
+    "past_participle": "read",
+    "thai_meaning": "อ่าน"
+  },
+  {
+    "present": "ride",
+    "past": "rode",
+    "past_participle": "ridden",
+    "thai_meaning": "ขี่"
+  },
+  {
+    "present": "ring",
+    "past": "rang",
+    "past_participle": "rung",
+    "thai_meaning": "สั่น, โทร"
+  },
+  {
+    "present": "rise",
+    "past": "rose",
+    "past_participle": "risen",
+    "thai_meaning": "ลุกขึ้น"
+  },
+  {
+    "present": "run",
+    "past": "ran",
+    "past_participle": "run",
+    "thai_meaning": "วิ่ง"
+  },
+  {
+    "present": "say",
+    "past": "said",
+    "past_participle": "said",
+    "thai_meaning": "พูด"
+  },
+  {
+    "present": "see",
+    "past": "saw",
+    "past_participle": "seen",
+    "thai_meaning": "เห็น"
+  },
+  {
+    "present": "sell",
+    "past": "sold",
+    "past_participle": "sold",
+    "thai_meaning": "ขาย"
+  },
+  {
+    "present": "send",
+    "past": "sent",
+    "past_participle": "sent",
+    "thai_meaning": "ส่ง"
+  },
+  {
+    "present": "set",
+    "past": "set",
+    "past_participle": "set",
+    "thai_meaning": "ตั้ง, วาง"
+  },
+  {
+    "present": "shake",
+    "past": "shook",
+    "past_participle": "shaken",
+    "thai_meaning": "สั่น"
+  },
+  {
+    "present": "shine",
+    "past": "shone",
+    "past_participle": "shone",
+    "thai_meaning": "ส่องแสง"
+  },
+  {
+    "present": "shoot",
+    "past": "shot",
+    "past_participle": "shot",
+    "thai_meaning": "ยิง"
+  },
+  {
+    "present": "show",
+    "past": "showed",
+    "past_participle": "shown",
+    "thai_meaning": "แสดง"
+  },
+  {
+    "present": "shut",
+    "past": "shut",
+    "past_participle": "shut",
+    "thai_meaning": "ปิด"
+  },
+  {
+    "present": "sing",
+    "past": "sang",
+    "past_participle": "sung",
+    "thai_meaning": "ร้องเพลง"
+  },
+  {
+    "present": "sit",
+    "past": "sat",
+    "past_participle": "sat",
+    "thai_meaning": "นั่ง"
+  },
+  {
+    "present": "sleep",
+    "past": "slept",
+    "past_participle": "slept",
+    "thai_meaning": "นอนหลับ"
+  },
+  {
+    "present": "speak",
+    "past": "spoke",
+    "past_participle": "spoken",
+    "thai_meaning": "พูด"
+  },
+  {
+    "present": "spend",
+    "past": "spent",
+    "past_participle": "spent",
+    "thai_meaning": "ใช้ (เงิน, เวลา)"
+  },
+  {
+    "present": "stand",
+    "past": "stood",
+    "past_participle": "stood",
+    "thai_meaning": "ยืน"
+  },
+  {
+    "present": "steal",
+    "past": "stole",
+    "past_participle": "stolen",
+    "thai_meaning": "ขโมย"
+  },
+  {
+    "present": "swim",
+    "past": "swam",
+    "past_participle": "swum",
+    "thai_meaning": "ว่ายน้ำ"
+  },
+  {
+    "present": "take",
+    "past": "took",
+    "past_participle": "taken",
+    "thai_meaning": "เอาไป"
+  },
+  {
+    "present": "teach",
+    "past": "taught",
+    "past_participle": "taught",
+    "thai_meaning": "สอน"
+  },
+  {
+    "present": "tear",
+    "past": "tore",
+    "past_participle": "torn",
+    "thai_meaning": "ฉีก"
+  },
+  {
+    "present": "tell",
+    "past": "told",
+    "past_participle": "told",
+    "thai_meaning": "บอก"
+  },
+  {
+    "present": "think",
+    "past": "thought",
+    "past_participle": "thought",
+    "thai_meaning": "คิด"
+  },
+  {
+    "present": "throw",
+    "past": "threw",
+    "past_participle": "thrown",
+    "thai_meaning": "ขว้าง, โยน"
+  },
+  {
+    "present": "understand",
+    "past": "understood",
+    "past_participle": "understood",
+    "thai_meaning": "เข้าใจ"
+  },
+  {
+    "present": "wake",
+    "past": "woke",
+    "past_participle": "woken",
+    "thai_meaning": "ตื่น"
+  },
+  {
+    "present": "wear",
+    "past": "wore",
+    "past_participle": "worn",
+    "thai_meaning": "สวม"
+  },
+  {
+    "present": "win",
+    "past": "won",
+    "past_participle": "won",
+    "thai_meaning": "ชนะ"
+  },
+  {
+    "present": "write",
+    "past": "wrote",
+    "past_participle": "written",
+    "thai_meaning": "เขียน"
+  }
+]
